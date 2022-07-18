@@ -1,0 +1,39 @@
+.signin-or-up{
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to right, #6d2b7e, #660626);
+}
+
+.logo{
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+    /*text-transform: uppercase; */
+}
+
+.header-links{
+    display: flex;
+}
+
+.header-links ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header-links ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+.header-links ul li a:hover{
+    color: violet;
+}
